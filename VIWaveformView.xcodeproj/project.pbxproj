@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F43FA7C212BA02900AA7CC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F43FA7B212BA02900AA7CC4 /* AppDelegate.swift */; };
+		5F43FA7E212BA02900AA7CC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F43FA7D212BA02900AA7CC4 /* ViewController.swift */; };
+		5F43FA81212BA02900AA7CC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F43FA7F212BA02900AA7CC4 /* Main.storyboard */; };
+		5F43FA83212BA02B00AA7CC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F43FA82212BA02B00AA7CC4 /* Assets.xcassets */; };
+		5F43FA86212BA02B00AA7CC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F43FA84212BA02B00AA7CC4 /* LaunchScreen.storyboard */; };
+		5F43FA93212BA06900AA7CC4 /* VIWaveformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F43FA8E212BA06900AA7CC4 /* VIWaveformView.swift */; };
+		5F43FA94212BA06900AA7CC4 /* VIAudioSampleOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F43FA8F212BA06900AA7CC4 /* VIAudioSampleOperation.swift */; };
+		5F43FA95212BA06900AA7CC4 /* VIWaveformNodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F43FA90212BA06900AA7CC4 /* VIWaveformNodeView.swift */; };
+		5F43FA96212BA06900AA7CC4 /* WaveformNodeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F43FA91212BA06900AA7CC4 /* WaveformNodeProvider.swift */; };
+		5F43FA97212BA06900AA7CC4 /* Moon River.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F43FA92212BA06900AA7CC4 /* Moon River.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F43FA78212BA02900AA7CC4 /* VIWaveformView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIWaveformView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F43FA7B212BA02900AA7CC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F43FA7D212BA02900AA7CC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F43FA80212BA02900AA7CC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F43FA82212BA02B00AA7CC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F43FA85212BA02B00AA7CC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F43FA87212BA02B00AA7CC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F43FA8E212BA06900AA7CC4 /* VIWaveformView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VIWaveformView.swift; sourceTree = "<group>"; };
+		5F43FA8F212BA06900AA7CC4 /* VIAudioSampleOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VIAudioSampleOperation.swift; sourceTree = "<group>"; };
+		5F43FA90212BA06900AA7CC4 /* VIWaveformNodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VIWaveformNodeView.swift; sourceTree = "<group>"; };
+		5F43FA91212BA06900AA7CC4 /* WaveformNodeProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveformNodeProvider.swift; sourceTree = "<group>"; };
+		5F43FA92212BA06900AA7CC4 /* Moon River.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Moon River.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F43FA75212BA02900AA7CC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F43FA6F212BA02900AA7CC4 = {
+			isa = PBXGroup;
+			children = (
+				5F43FA7A212BA02900AA7CC4 /* VIWaveformView */,
+				5F43FA79212BA02900AA7CC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F43FA79212BA02900AA7CC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F43FA78212BA02900AA7CC4 /* VIWaveformView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F43FA7A212BA02900AA7CC4 /* VIWaveformView */ = {
+			isa = PBXGroup;
+			children = (
+				5F43FA8D212BA06900AA7CC4 /* Sources */,
+				5F43FA7B212BA02900AA7CC4 /* AppDelegate.swift */,
+				5F43FA7D212BA02900AA7CC4 /* ViewController.swift */,
+				5F43FA92212BA06900AA7CC4 /* Moon River.mp3 */,
+				5F43FA7F212BA02900AA7CC4 /* Main.storyboard */,
+				5F43FA82212BA02B00AA7CC4 /* Assets.xcassets */,
+				5F43FA84212BA02B00AA7CC4 /* LaunchScreen.storyboard */,
+				5F43FA87212BA02B00AA7CC4 /* Info.plist */,
+			);
+			path = VIWaveformView;
+			sourceTree = "<group>";
+		};
+		5F43FA8D212BA06900AA7CC4 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5F43FA8E212BA06900AA7CC4 /* VIWaveformView.swift */,
+				5F43FA8F212BA06900AA7CC4 /* VIAudioSampleOperation.swift */,
+				5F43FA90212BA06900AA7CC4 /* VIWaveformNodeView.swift */,
+				5F43FA91212BA06900AA7CC4 /* WaveformNodeProvider.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F43FA77212BA02900AA7CC4 /* VIWaveformView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F43FA8A212BA02B00AA7CC4 /* Build configuration list for PBXNativeTarget "VIWaveformView" */;
+			buildPhases = (
+				5F43FA74212BA02900AA7CC4 /* Sources */,
+				5F43FA75212BA02900AA7CC4 /* Frameworks */,
+				5F43FA76212BA02900AA7CC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VIWaveformView;
+			productName = VIWaveformView;
+			productReference = 5F43FA78212BA02900AA7CC4 /* VIWaveformView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F43FA70212BA02900AA7CC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Vito;
+				TargetAttributes = {
+					5F43FA77212BA02900AA7CC4 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 5F43FA73212BA02900AA7CC4 /* Build configuration list for PBXProject "VIWaveformView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F43FA6F212BA02900AA7CC4;
+			productRefGroup = 5F43FA79212BA02900AA7CC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F43FA77212BA02900AA7CC4 /* VIWaveformView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F43FA76212BA02900AA7CC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F43FA86212BA02B00AA7CC4 /* LaunchScreen.storyboard in Resources */,
+				5F43FA97212BA06900AA7CC4 /* Moon River.mp3 in Resources */,
+				5F43FA83212BA02B00AA7CC4 /* Assets.xcassets in Resources */,
+				5F43FA81212BA02900AA7CC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F43FA74212BA02900AA7CC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F43FA95212BA06900AA7CC4 /* VIWaveformNodeView.swift in Sources */,
+				5F43FA7E212BA02900AA7CC4 /* ViewController.swift in Sources */,
+				5F43FA7C212BA02900AA7CC4 /* AppDelegate.swift in Sources */,
+				5F43FA96212BA06900AA7CC4 /* WaveformNodeProvider.swift in Sources */,
+				5F43FA93212BA06900AA7CC4 /* VIWaveformView.swift in Sources */,
+				5F43FA94212BA06900AA7CC4 /* VIAudioSampleOperation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5F43FA7F212BA02900AA7CC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F43FA80212BA02900AA7CC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F43FA84212BA02B00AA7CC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F43FA85212BA02B00AA7CC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F43FA88212BA02B00AA7CC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F43FA89212BA02B00AA7CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F43FA8B212BA02B00AA7CC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZZX7396L9W;
+				INFOPLIST_FILE = VIWaveformView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vito.VIWaveformView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F43FA8C212BA02B00AA7CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZZX7396L9W;
+				INFOPLIST_FILE = VIWaveformView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vito.VIWaveformView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F43FA73212BA02900AA7CC4 /* Build configuration list for PBXProject "VIWaveformView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F43FA88212BA02B00AA7CC4 /* Debug */,
+				5F43FA89212BA02B00AA7CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F43FA8A212BA02B00AA7CC4 /* Build configuration list for PBXNativeTarget "VIWaveformView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F43FA8B212BA02B00AA7CC4 /* Debug */,
+				5F43FA8C212BA02B00AA7CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F43FA70212BA02900AA7CC4 /* Project object */;
+}
