@@ -1,4 +1,4 @@
-# VIWaveView
+# VIWaveformView
 
 Generate waveform view from audio data.
 
